@@ -1,0 +1,1193 @@
+*
+{
+    font-family: raleway;
+    box-sizing: border-box;
+}
+
+body
+{
+    max-width: 1650px;
+    margin: auto;
+}
+
+p
+{
+    font-weight: 500;
+}
+
+/* Header CSS */
+
+header
+{
+    margin-left: 15px;
+}
+
+header h1
+{
+    margin-bottom: 0;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lienhead
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+}
+
+.lienhead li
+{
+    border: 3px solid transparent;
+    padding: 20px;
+}
+
+.lienhead li:hover
+{
+    border-top-color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.lienhead li:hover a
+{
+    color: rgb(0, 110, 255);
+}
+
+.decoHeber
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+}
+
+.decoAct
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.logo
+{
+    width: 90px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+/* Nav CSS */
+
+.barre
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    background-color:#f2f2f2;
+    height: 50px;
+    width: 40px;
+    padding-right: 25px;
+    border-radius: 10px 0 0 10px ;
+}
+
+.fa-map-marker-alt
+{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.locate
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.locate input
+{
+    width:350px; 
+    height:50px; 
+    font-weight: bold;
+    font-size: 20px;
+    border-color:#f2f2f2 ;
+    border-style: solid;
+}
+
+.rechercher
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    height: 50px;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    border: none;
+}
+
+.iconrech
+{
+    display: none;
+}
+
+/* Filtres CSS */
+
+.filtres
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.titrefiltre
+{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.filtre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding-right: 20px;
+    border: 2px solid rgb(184, 184, 184);
+    height: 50px;
+    border-radius: 30px;
+}
+
+.filtres :hover > .filtre
+{
+    background-color: rgb(0, 110, 255);
+}
+
+.iconfiltre
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    color: rgb(0, 110, 255);
+    background-color:rgb(215, 228, 255);
+    margin-left: -2px;
+}
+
+.iconfiltre:hover
+{
+    color: white;
+    background-color: rgb(0, 110, 255);
+}
+
+.descFiltre
+{
+    margin-left: 10px;
+}
+
+.info
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.infocercle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    color: rgb(0, 110, 255);
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    border: 2px solid #f2f2f2;
+}
+
+/* Hebergement Marseille CSS */
+
+.Hebergements
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.HeberMarseille
+{
+    flex: 2;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+}
+
+.HeberMarseille a
+{
+    text-decoration: none;
+    color: initial
+}
+
+.titreMars
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+.Line1
+{
+    
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.imgMars
+{
+    object-fit: cover;
+    width: 300px;
+    height: 120px; 
+    border-radius: 15px 15px 0 0;
+}
+
+.Mars
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 2px #f2f2f2;
+    margin: 25px auto;
+}
+
+
+.Affplus
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+/* Heber Populaire CSS */
+
+.HeberPopulaire
+{
+    flex: 1;
+    border-radius: 15px;
+    margin-left: 20px;
+    background-color: #f2f2f2;
+}
+
+.HeberPopulaire a
+{
+    text-decoration: none;
+    color: initial
+}
+
+.TitrePop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.TitrePop h2
+{
+    margin-left: 25px;
+}
+
+
+.TitrePop div
+{
+    margin-right: 25px;
+}
+
+.CasePop
+{
+    padding: 20px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Pop
+{
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.imgPop
+{   
+    object-fit: cover;
+    width: 175px;
+    height: 175px;
+    border-radius: 15px 0 0 15px ;
+}
+
+.DescPop
+{   
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/* Note etoile Heber CSS */
+
+.Notemars
+{
+    display: flex;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.Notepop
+{
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.Notebleu
+{
+    color: rgb(0, 110, 255);
+}
+
+.Notegris
+{
+    color: #f2f2f2;
+}
+
+/* Activité CSS */
+
+.Activites
+{
+    width: 100%;
+    min-height: 700px;
+    margin-top: 50px;
+    margin-top: 50px;
+}
+
+.Carre1,
+.Carre2
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.Activites a
+{
+    text-decoration: none;
+    color: initial
+}
+
+.titreAct
+{
+    margin-left: 25px;
+}
+
+.CaseAct
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.DescAct
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;   
+    padding-bottom: 18px;
+}
+
+
+.activite
+{
+    box-shadow: 2px 2px 5px 2px #f2f2f2;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+.CaseAct1
+{
+    cursor: pointer;
+}
+
+.imgAct1
+{
+    width: 320px;
+    height: 570px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.CaseAct2
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.imgAct2
+{
+    width: 320px;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgAct3
+{
+    width: 320px;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.CaseAct3
+{
+    cursor: pointer;
+}
+
+.CaseAct3 .DescAct
+{
+    padding-bottom: 18px;
+}
+
+.imgAct4
+{
+    width: 320px;
+    height: 570px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.CaseAct4
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.imgAct5
+{
+    width: 320px;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.imgAct6
+{
+    width: 320px;
+    height: 250px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Footer CSS */
+
+footer
+{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px; 
+    background-color: #f2f2f2;
+}
+
+footer a 
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+footer section
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.Foot
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.Foot1
+{
+    margin-left: 50px;
+    padding-top: 60px;
+    margin-top: 10px;
+}
+
+.Foot1 a
+{
+    margin-top: 15px;
+}
+
+.Foot2
+{
+    margin-left: 150px;
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+.Foot2 a
+{
+    margin-top: 15px;
+}
+
+.Foot3
+{
+    margin-left: 150px;
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+.Foot3 a
+{
+    margin-top: 15px;
+}
+
+/* Media Max:1500px */
+
+@media screen and (max-width: 1550px)
+{
+    .imgMars
+    {
+        width: 240px;
+    }
+
+    .imgPop
+    {
+        width: 150px;
+    }
+
+}
+
+/* Media Max:1200px */
+
+@media screen and (max-width: 1275px)
+{
+    .imgMars
+    {
+        width: 210px;
+    }
+
+    .imgPop
+    {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1150px)
+{
+    .imgMars
+    {
+        width: 180px;
+        height: 150px;
+    }
+
+    .Mars
+    {
+        margin-bottom: 70px;
+    }
+
+    .Mars h3
+    {
+        font-size: 15px;
+    }
+
+    .Mars p
+    {
+        font-size: 10px;
+    }
+
+    .imgPop
+    {
+        height: 200px;
+    }
+}
+
+
+
+/* Media Max:992px */
+
+@media screen and (max-width: 992px)
+{
+    header
+    {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    
+    form
+    {
+        margin-left: 15px;
+    }
+
+    .filtres
+    {
+        flex-wrap: wrap;
+    }
+    /* Heber CSS 992px */
+    .Hebergements
+    {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .HeberPopulaire
+    {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .imgMars
+    {
+        width: 320px;
+    }
+
+    .Mars h3
+    {
+        font-size: 25px;
+    }
+
+    .Mars p
+    {
+        font-size: 15px;
+    }
+
+    .HeberMarseille
+    {
+        width: 100%;
+        margin-right: 30px;
+    }
+    /* Footer CSS 992px */
+    footer
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .Foot2
+    {
+        margin-left: 20px;
+    }
+
+    .Foot3
+    {
+        margin-left: 20px;
+    }
+    
+}
+
+/* Media Max:768px */
+
+@media screen and (max-width:768px) 
+{
+
+    /* Header CSS 768px */
+
+    .BarreHead
+    {
+        flex-direction: column;
+    }
+
+    .Logo1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Deco
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .decoHeber
+    {
+        font-size: 20px;
+        padding-top: 37px;
+        text-decoration: none;
+    }
+
+    .lienhead
+    {
+        padding: 0;
+        width: 100%;
+    }
+
+    .lienhead li
+    {
+        width: 100%;
+        border-top-color:transparent ;
+        border-bottom-color: #f2f2f2;
+    }
+
+    .lienhead li:hover
+    {
+        border-bottom-color: rgb(0, 110, 255);
+        border-top-color: transparent;
+    }
+
+    .active
+    {
+        color: rgb(0, 110, 255);
+        border-bottom-color: rgb(0, 110, 255);
+    }
+
+
+    /* Nav CSS 768px */
+
+    .filtres
+    {
+        flex-wrap: wrap;
+    }
+
+    .textrech
+    {
+        display: none;
+    }
+
+    .rechercher
+    {
+        border-radius: 10px;
+        margin-left: -10px;
+        width: auto;
+    }
+
+    .iconrech
+    {
+        display: initial;
+    }
+
+    .locate input
+    {
+        width:300px; 
+        height:50px; 
+        font-weight: bold;
+        font-size: 15px;
+        border-color:#f2f2f2 ;
+        border-style: solid;
+    }
+
+    .icon
+    {
+        width: auto;
+    }
+
+    .barre
+    {
+        flex-wrap: nowrap;
+    }
+    
+    /* Hebergements CSS 768px */
+
+    .Hebergements
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .HeberPopulaire
+    {
+        flex: 1;    
+        background-color: #f2f2f2;
+        border-radius: initial;   
+        width: 100%;
+        margin-left: -25px;
+    }
+
+    .TitrePop
+    {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .CasePop
+    {
+        padding: 20px;
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Pop
+    {
+        display: flex;
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        margin-bottom: 60px;
+        cursor: pointer;
+    }
+
+    .imgPop
+    {   
+        object-fit: cover;
+        width: 105px;
+        height: 120px;
+        border-radius: 15px 0 0 15px ;
+    }
+
+    .DescPop
+    {   
+        padding-left: 5px;
+        font-size: 15px;
+    }
+
+    .Notepop
+    {
+        margin-top: -5px;
+    }
+
+    .HeberMarseille
+    {
+        background-color: white;
+    }
+
+    .titreMars
+    {
+        font-size: 22px;
+        margin-left: 15%;
+    }
+
+
+    .imgMars
+    {
+        object-fit: cover;
+        width: 375px;
+        height: 125px; 
+        border-radius: 15px 15px 0 0;
+    }
+
+    .Mars
+    {
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        margin-top: 20px;
+        box-shadow: 2px 2px 5px 2px #f2f2f2;
+        margin-left: 30px;
+    }
+
+    .Line1
+    {
+        margin-left: -30px;
+        justify-content: space-around;    
+        margin-right: 0;
+    }
+    
+    .Mars h3
+    {
+        padding-left: 10px;
+        font-size: 20px;
+        margin:0;
+    }
+    
+    .Mars p 
+    {
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .Affplus
+    {
+        margin-left: 30px;
+    }
+
+    /* Activite CSS 768px */
+
+    .titreAct
+    {
+        margin-left: 15%;
+    }
+
+    .CaseAct
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Carre1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .Carre2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .activite
+    {
+        margin-bottom: 50px;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .CaseAct1
+    {
+        width: 100%;
+    }
+
+    .CaseAct2
+    {   
+        width: 100%; 
+        margin-left: 0px;     
+    }
+
+    .CaseAct3
+    {
+        width: 100%;
+    }
+
+    .CaseAct4
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .imgAct1
+    {
+        width: 375px;
+        height: 125px; 
+    }
+
+    .imgAct2
+    {
+        width: 375px;
+        height: 125px; 
+    }
+
+    .imgAct3
+    {
+        width: 375px;
+        height: 125px; 
+    }
+
+    .imgAct4
+    {
+        width: 375px;
+        height: 125px; 
+    }
+
+    .imgAct5
+    {
+        object-fit: cover;
+        width: 375px;
+        height: 125px; 
+    }
+
+    .imgAct6
+    {
+        object-fit: cover;
+        width: 375px;
+        height: 125px; 
+    }
+
+    /* Footer CSS 768px */
+
+    footer
+    {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #f2f2f2;
+        width: 100%;
+    }
+
+    
+    .Foot2
+    {
+        margin-left: 50px;
+        margin-right: 90px;
+    }
+
+    .Foot3
+    {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:400px) 
+{
+
+    .locate input 
+    {
+        width: 200px;
+    }
+
+    .titreMars
+    {
+        margin-left: -15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titreAct
+    {
+        margin-left: 15px;
+    }
+    
+
+    .rechercher
+    {
+        width: 75px;
+    }
+
+    .imgMars
+    {
+        width: 300px;
+    }
+
+    .imgPop
+    {
+        flex-wrap: wrap;
+        min-height: 180px;
+    }
+
+    .imgAct1,
+    .imgAct2,
+    .imgAct3,
+    .imgAct4,
+    .imgAct5,
+    .imgAct6
+    {
+        width:300px
+    }
+
+    .Activites a 
+    {
+        width: 300px;
+    }
+
+    .Affplus
+    {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:300px) 
+{
+    
+    .rechercher
+    {
+        width: 35px;
+    }
+
+    .DescPop
+    {
+        flex-wrap: wrap;
+    }
+
+    .locate input
+    {
+        width: 160px;
+    }
+
+    .HeberPopulaire
+    {
+        width: 100%;
+    
+    }
+
+    .imgMars
+    {
+        width: 240px;
+    }
+
+    .imgAct1,
+    .imgAct2,
+    .imgAct3,
+    .imgAct4,
+    .imgAct5,
+    .imgAct6
+    {
+        width:240px
+    }
+
+    .Activites a 
+    {
+        width: 240px;
+    }
+}
